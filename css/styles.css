@@ -160,6 +160,7 @@ button {
   color: var(--logo-dark-txt-container);
 }
 .logo-light {
+  margin-bottom: 16px;
   color: var(--logo-btn-txt);
 }
 .header-link {
@@ -190,9 +191,15 @@ button {
 .header-container {
   display: flex;
   align-items: center;
+  border-top: none;
+  
+}
+.header-page {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -202,8 +209,7 @@ button {
   margin-right: auto;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .section-studio {
   padding-top: 120px;
@@ -295,7 +301,7 @@ button {
   text-align: center;
 }
 .logo-footer {
-  margin-bottom: 16px;
+  
   padding-top: 100px;
   padding-bottom: 100px;
 }
