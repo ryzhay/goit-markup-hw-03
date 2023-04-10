@@ -31,7 +31,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border-top: none;
 }
 .container {
   width: 1158px;
@@ -39,8 +38,11 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  
-  
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+.container-item {
+  border-top: none;
 }
 
 .list {
@@ -193,8 +195,6 @@ button {
 }
 
 .header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   border-top: none;
@@ -208,6 +208,8 @@ button {
   gap: 40px;
 }
 .header-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
   margin-right: auto;
   display: flex;
@@ -274,7 +276,7 @@ button {
 .subtitle {
   width: 264px;
 }
-.img-list {
+.images-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
