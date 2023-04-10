@@ -84,7 +84,6 @@ button {
   background-color: var(--okean-active-btn);
 }
 .bth-portfolio {
- 
   padding: 12px 24px;
 
   font-family: var(--primary-font);
@@ -97,13 +96,11 @@ button {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  
 }
 .bth-portfolio:focus {
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
-
 }
 
 .bth-portfolio:hover,
@@ -114,6 +111,7 @@ button {
 }
 
 .title {
+  padding-top: 188px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -128,14 +126,13 @@ button {
   color: var(--light-txt-cl);
 }
 .title-container {
-  padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .dark-bg {
   background: var(--logo-dark-txt-container);
 }
 .footer-text {
-  margin-top: 16px;
   width: 264px;
   font-family: var(--primary-font);
   font-weight: 400;
@@ -160,8 +157,10 @@ button {
   color: var(--logo-dark-txt-container);
 }
 .logo-light {
-  margin-bottom: 16px;
   color: var(--logo-btn-txt);
+}
+.logo-text {
+  margin-bottom: 16px;
 }
 .header-link {
   font-family: var(--primary-font);
@@ -189,17 +188,16 @@ button {
 }
 
 .header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   border-top: none;
-  
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -209,7 +207,6 @@ button {
   margin-right: auto;
   display: flex;
   gap: 40px;
-  
 }
 .section-studio {
   padding-top: 120px;
@@ -301,7 +298,6 @@ button {
   text-align: center;
 }
 .logo-footer {
-  
   padding-top: 100px;
   padding-bottom: 100px;
 }
