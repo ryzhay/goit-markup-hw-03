@@ -84,7 +84,7 @@ button {
   background-color: var(--okean-active-btn);
 }
 .bth-portfolio {
-  margin-bottom: 72px;
+ 
   padding: 12px 24px;
 
   font-family: var(--primary-font);
@@ -97,10 +97,13 @@ button {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  
 }
 .bth-portfolio:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
+
 }
 
 .bth-portfolio:hover,
@@ -114,7 +117,7 @@ button {
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  max-width: 496px;
   display: block;
   font-family: var(--primary-font);
   font-weight: 700;
@@ -187,7 +190,7 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list {
   display: flex;
@@ -195,13 +198,14 @@ button {
   gap: 40px;
 }
 .header-nav {
+  align-items: center;
   margin-right: auto;
   display: flex;
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
-section {
+.section-studio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -290,18 +294,22 @@ section {
 .team-text {
   text-align: center;
 }
-.logo-footer { 
-  
+.logo-footer {
   margin-bottom: 16px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .btn-list {
-  
+  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  border-top: none;
+}
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .card {
