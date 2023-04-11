@@ -190,6 +190,8 @@ button {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--okean-active-btn);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -207,8 +209,7 @@ button {
   gap: 40px;
 }
 .header-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   align-items: center;
   margin-right: auto;
   display: flex;
