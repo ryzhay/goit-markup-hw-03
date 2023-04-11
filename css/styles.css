@@ -197,14 +197,15 @@ button {
 }
 
 .header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   border-top: none;
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .header-nav-list {
   display: flex;
@@ -336,4 +337,5 @@ button {
 .card-wrapper {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
