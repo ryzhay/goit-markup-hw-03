@@ -198,8 +198,7 @@ button {
   border-top: none;
 }
 .header-page {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list {
@@ -208,6 +207,8 @@ button {
   gap: 40px;
 }
 .header-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
   margin-right: auto;
   display: flex;
