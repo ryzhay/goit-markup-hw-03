@@ -286,6 +286,10 @@ button {
   flex-wrap: wrap;
   gap: 24px;
 }
+.pic {
+
+  width: 360px;
+}
 .team-list {
   display: flex;
   flex-wrap: wrap;
