@@ -168,6 +168,8 @@ button {
   padding-bottom: 100px;
 }
 .header-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -190,8 +192,7 @@ button {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--okean-active-btn);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .header-container {
