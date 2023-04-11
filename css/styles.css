@@ -114,7 +114,7 @@ button {
 }
 
 .title {
-  padding-top: 188px;
+  
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -128,13 +128,14 @@ button {
   letter-spacing: 0.02em;
   color: var(--light-txt-cl);
 }
-.title-container {
-  padding-bottom: 188px;
-}
 
 .dark-bg {
   background: var(--logo-dark-txt-container);
+  
 }
+
+
+
 .footer-text {
   width: 264px;
   font-family: var(--primary-font);
@@ -201,6 +202,8 @@ button {
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav-list {
   display: flex;
@@ -208,8 +211,7 @@ button {
   gap: 40px;
 }
 .header-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   align-items: center;
   margin-right: auto;
   display: flex;
@@ -219,6 +221,11 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.title-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 
 .uppertitle {
   margin-bottom: 8px;
