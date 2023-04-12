@@ -192,7 +192,6 @@ button {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--okean-active-btn);
-  
 }
 
 .header-container {
@@ -201,7 +200,6 @@ button {
   border-top: none;
 }
 .header-page {
-  
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list {
@@ -210,7 +208,6 @@ button {
   gap: 40px;
 }
 .header-nav {
-  
   align-items: center;
   margin-right: auto;
   display: flex;
@@ -218,7 +215,7 @@ button {
 }
 .section-studio {
   padding-top: 120px;
-  padding-bottom: 120px;
+ 
 }
 .title-container {
   padding-top: 188px;
@@ -287,7 +284,6 @@ button {
   gap: 24px;
 }
 .pic {
-
   width: 360px;
 }
 .team-list {
