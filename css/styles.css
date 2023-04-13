@@ -38,8 +38,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
-  outline-offset: -2px;
+ 
 }
 .container-item {
   border-top: none;
@@ -211,11 +210,14 @@ button {
   align-items: center;
   margin-right: auto;
   display: flex;
-  gap: 40px;
+  
+}
+.section-text {
+  padding-top: 120px;
 }
 .section-studio {
   padding-top: 120px;
- 
+  padding-bottom: 120px;
 }
 .title-container {
   padding-top: 188px;
