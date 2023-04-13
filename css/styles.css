@@ -23,8 +23,12 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
+  margin: 0;
+}
+
+ul,
+ol {
   margin: 0;
 }
 img {
@@ -38,7 +42,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
- 
 }
 .container-item {
   border-top: none;
@@ -210,11 +213,10 @@ button {
   align-items: center;
   margin-right: auto;
   display: flex;
-  
+  gap: 40px;
 }
-.section-text {
-  padding-top: 120px;
-}
+
+
 .section-studio {
   padding-top: 120px;
   padding-bottom: 120px;
